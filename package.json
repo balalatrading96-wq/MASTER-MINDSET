@@ -1,15 +1,23 @@
 {
-      "name": "clean-tracker-server",
-      "version": "1.0.0",
-      "main": "server.js",
-      "scripts": { "start": "node server.js", "dev": "nodemon server.js" },
-      "dependencies": {
-        "body-parser": "^1.20.0",
-        "cors": "^2.8.5",
-        "express": "^4.18.2",
-        "lowdb": "^6.0.1",
-        "nodemailer": "^6.9.1",
-        "web-push": "^3.4.5",
-        "dotenv": "^16.0.3"
-      }
-    }
+  "name": "clean-tracker-client",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "recharts": "^2.5.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "axios": "^1.4.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
